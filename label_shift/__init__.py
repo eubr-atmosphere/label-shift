@@ -1,11 +1,11 @@
 # -*- coding: utf8
 
-
 from sklearn.metrics import confusion_matrix
 
 
 import numpy as np
 
+name = 'label_shift'
 
 def calculate_marginal(y, n_classes):
     mu = np.zeros(shape=(n_classes, 1))
